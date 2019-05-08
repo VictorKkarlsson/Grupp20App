@@ -11,7 +11,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Over20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="0.338" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Under20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
