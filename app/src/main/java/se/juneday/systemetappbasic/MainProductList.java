@@ -238,7 +238,7 @@ public class MainProductList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_product_list);
 
         // set up faked products
         createFakedProducts();
