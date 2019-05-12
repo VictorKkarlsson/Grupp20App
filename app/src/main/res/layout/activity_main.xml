@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="MainActivity"
-    android:background="@android:color/holo_blue_light"
+    android:background="#78CDD7"
+    android:textColor="#08B5F8"
     >
 
 
@@ -28,7 +29,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#070000"
+        android:textColor="#022F40"
         android:text="Välkommen till systemet appen för att få tillgång tjänsten måste du vara över 20 år"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

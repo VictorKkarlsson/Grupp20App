@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AccessDenied"></activity>
+        <activity android:name=".IfUnder20"></activity>
+        <activity android:name=".AccessDenied" />
         <activity android:name=".TestActivity" />
         <activity android:name=".MainProductList" />
         <activity android:name=".MainActivity">
