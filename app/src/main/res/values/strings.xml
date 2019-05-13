@@ -6,4 +6,7 @@
     <string name="textview">TextView</string>
     <string name="vill_du_veta_mer_om_systembolaget">Vill du veta mer om Systembolaget?</string>
     <string name="har_du_fr_gor_om_systembolaget_som_arbetsgivare_eller_om_v_r_roll_i_svensk_alkoholpolitik_vill_du_veta_mer_om_systembolagets_uppdrag_v_rt_h_llbarhetsarbete_eller_om_alkoholproblematik_och_h_lsofr_gor_forts_tt_i_s_fall_till_omsystembolaget_se">Har du frågor om Systembolaget som arbetsgivare eller om vår roll i svensk alkoholpolitik? Vill du veta mer om Systembolagets uppdrag, vårt hållbarhetsarbete eller om alkoholproblematik och hälsofrågor? Fortsätt i så fall till omsystembolaget.se.</string>
+    <string name="jag_r_under_20">Jag är Under 20</string>
+    <string name="jag_r_ver_20">Jag är över 20</string>
+    <string name="v_lkommen_till_systemet_appen_f_r_att_f_tillg_ng_tj_nsten_m_ste_du_vara_ver_20_r">Välkommen till systemet appen för att få tillgång tjänsten måste du vara över 20 år</string>
 </resources>

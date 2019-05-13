@@ -24,7 +24,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_marginTop="25dp"
+            android:fontFamily="@font/andada"
             android:text="@string/f_r_dig_under_20_r"
+            android:textColor="#000000"
             android:textSize="32sp" />
 
         <TextView
@@ -33,7 +35,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_marginTop="80dp"
+            android:fontFamily="@font/andada"
             android:text="@string/varf_r_visas_inte_systembolagetappen_h_r"
+            android:textColor="#000000"
             android:textSize="24sp" />
 
         <TextView
@@ -42,7 +46,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_marginTop="155dp"
+            android:fontFamily="@font/andada"
             android:text="@string/enligt_alkohollagen_och_konsumentverkets_allm_nna_r_d_om_marknadsf_ring_av_alkohol_till_konsumenter_ska_s_rskild_m_ttfullhet_iakttas_vid_all_marknadsf_ring_av_alkoholdryck_till_konsumenter_det_r_vidare_enligt_alkohollagen_f_rbjudet_att_rikta_marknadsf_ringen_s_rskilt_till_personer_som_inte_har_fyllt_25_r"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -53,7 +59,9 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="25dp"
             android:layout_marginTop="280dp"
+            android:fontFamily="@font/andada"
             android:text="@string/vill_du_veta_mer_om_systembolaget"
+            android:textColor="#000000"
             android:textSize="32sp" />
 
         <TextView
@@ -64,8 +72,10 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="25dp"
             android:layout_marginTop="370dp"
+            android:fontFamily="@font/andada"
             android:text="@string/har_du_fr_gor_om_systembolaget_som_arbetsgivare_eller_om_v_r_roll_i_svensk_alkoholpolitik_vill_du_veta_mer_om_systembolagets_uppdrag_v_rt_h_llbarhetsarbete_eller_om_alkoholproblematik_och_h_lsofr_gor_forts_tt_i_s_fall_till_omsystembolaget_se"
-            android:textSize="16sp" />
+            android:textColor="#000000"
+            android:textSize="14sp" />
 
     </RelativeLayout>
 
