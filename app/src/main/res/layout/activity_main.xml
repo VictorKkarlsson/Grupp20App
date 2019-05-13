@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="MainActivity"
     android:background="#78CDD7"
     android:textColor="#08B5F8"
-    >
+    tools:context="MainActivity">
 
 
     <Button
@@ -17,20 +16,22 @@
         android:layout_below="@id/textView"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/andada"
-        android:text="Jag är 20 år eller äldre"
+        android:text="@string/jag_r_20_r_eller_ldre"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.348" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="380dp"
         android:layout_height="170dp"
         android:fontFamily="@font/andada"
-        android:text="@string/v_lkommen_till_systemet_appen_f_r_att_f_tillg_ng_tj_nsten_m_ste_du_vara_ver_20_r"
+        android:text="@string/v_lkommen_till_systemetappen_f_r_att_f_tillg_ng_till_tj_nsten_m_ste_du_vara_20_r_eller_ldre"
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,11 +49,13 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/andada"
         android:text="@string/jag_r_under_20"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.347" />
 
 </android.support.constraint.ConstraintLayout>

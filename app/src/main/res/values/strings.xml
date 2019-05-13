@@ -9,4 +9,6 @@
     <string name="jag_r_under_20">Jag är Under 20</string>
     <string name="jag_r_ver_20">Jag är över 20</string>
     <string name="v_lkommen_till_systemet_appen_f_r_att_f_tillg_ng_tj_nsten_m_ste_du_vara_ver_20_r">Välkommen till systemet appen för att få tillgång tjänsten måste du vara över 20 år</string>
+    <string name="jag_r_20_r_eller_ldre">Jag är 20 år eller äldre</string>
+    <string name="v_lkommen_till_systemetappen_f_r_att_f_tillg_ng_till_tj_nsten_m_ste_du_vara_20_r_eller_ldre">Välkommen till systemetappen för att få tillgång till tjänsten måste du vara 20 år eller äldre</string>
 </resources>
