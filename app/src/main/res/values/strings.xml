@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SystemetAppBasic</string>
+    <string name="f_r_dig_under_20_r">För dig under 20 år</string>
+    <string name="varf_r_visas_inte_systembolagetappen_h_r">Varför visas inte systembolagetappen här?</string>
+    <string name="enligt_alkohollagen_och_konsumentverkets_allm_nna_r_d_om_marknadsf_ring_av_alkohol_till_konsumenter_ska_s_rskild_m_ttfullhet_iakttas_vid_all_marknadsf_ring_av_alkoholdryck_till_konsumenter_det_r_vidare_enligt_alkohollagen_f_rbjudet_att_rikta_marknadsf_ringen_s_rskilt_till_personer_som_inte_har_fyllt_25_r">Enligt alkohollagen och Konsumentverkets allmänna råd om marknadsföring av alkohol till konsumenter ska särskild måttfullhet iakttas vid all marknadsföring av alkoholdryck till konsumenter. Det är vidare enligt alkohollagen förbjudet att rikta marknadsföringen särskilt till personer som inte har fyllt 25 år.</string>
+    <string name="textview">TextView</string>
+    <string name="vill_du_veta_mer_om_systembolaget">Vill du veta mer om Systembolaget?</string>
+    <string name="har_du_fr_gor_om_systembolaget_som_arbetsgivare_eller_om_v_r_roll_i_svensk_alkoholpolitik_vill_du_veta_mer_om_systembolagets_uppdrag_v_rt_h_llbarhetsarbete_eller_om_alkoholproblematik_och_h_lsofr_gor_forts_tt_i_s_fall_till_omsystembolaget_se">Har du frågor om Systembolaget som arbetsgivare eller om vår roll i svensk alkoholpolitik? Vill du veta mer om Systembolagets uppdrag, vårt hållbarhetsarbete eller om alkoholproblematik och hälsofrågor? Fortsätt i så fall till omsystembolaget.se.</string>
 </resources>
