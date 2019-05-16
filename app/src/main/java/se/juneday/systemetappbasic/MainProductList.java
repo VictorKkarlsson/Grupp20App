@@ -47,7 +47,7 @@ public class MainProductList extends AppCompatActivity {
 
     private void createListOfProducts() {
         products = new ArrayList<>();
-
+// HEJ
         /**Product p1 = new Product.Builder()
                 .alcohol(4.4)
                 .name("Pilsner Urquell")
