@@ -37,6 +37,7 @@ public class MainProductList extends AppCompatActivity {
     private ListView listView;
     private ArrayAdapter<Product> adapter;
 
+
     private static final String MIN_ALCO = "min_alcohol";
     private static final String MAX_ALCO = "max_alcohol";
     private static final String MIN_PRICE = "min_price";
@@ -47,6 +48,7 @@ public class MainProductList extends AppCompatActivity {
 
     private void createListOfProducts() {
         products = new ArrayList<>();
+
 // HEJ
         /**Product p1 = new Product.Builder()
                 .alcohol(4.4)
@@ -67,12 +69,20 @@ public class MainProductList extends AppCompatActivity {
 
         Map<String, String> arguments = new HashMap<>();
         searchProducts(arguments);
+
+
     }
+
+
+
+
+
 
 
     private void setupListView() {
         // look up a reference to the ListView object
         listView = findViewById(R.id.product_list);
+        EditText theFilter = (EditText) findViewById(R.id.search_filter);
 
         // create an adapter (with the faked products)
         adapter = new ArrayAdapter<Product>(this,
