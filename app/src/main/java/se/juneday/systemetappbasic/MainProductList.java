@@ -45,9 +45,10 @@ public class MainProductList extends AppCompatActivity {
     private static final String NAME = "name";
 
 
-    private void createFakedProducts() {
+    private void createListOfProducts() {
         products = new ArrayList<>();
-        Product p1 = new Product.Builder()
+
+        /**Product p1 = new Product.Builder()
                 .alcohol(4.4)
                 .name("Pilsner Urquell")
                 .nr(1234)
@@ -62,7 +63,10 @@ public class MainProductList extends AppCompatActivity {
                 .type("Öl")
                 .volume(330).build();
         products.add(p1);
-        products.add(p2);
+        products.add(p2);**/
+
+        Map<String, String> arguments = new HashMap<>();
+        searchProducts(arguments);
     }
 
 
@@ -94,7 +98,6 @@ public class MainProductList extends AppCompatActivity {
         // Set listView's adapter to the new adapter
         listView.setAdapter(adapter);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -241,7 +244,7 @@ public class MainProductList extends AppCompatActivity {
         setContentView(R.layout.activity_main_product_list);
 
         // set up faked products
-        createFakedProducts();
+        createListOfProducts();
 
 
         // setup listview (and friends)
