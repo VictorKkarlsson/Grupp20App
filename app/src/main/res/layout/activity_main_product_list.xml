@@ -7,12 +7,13 @@
     tools:context=".MainProductList">
 
 
-    <EditText
+   <!--- <EditText>
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:id="@+id/search_filter"
         android:hint="Sök på produktnamn"
-        />
+        </EditText>-->
+
 
     <ListView
         android:layout_width="wrap_content"
