@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -25,6 +27,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.lang.CharSequence;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -83,11 +86,30 @@ public class MainProductList extends AppCompatActivity {
         // look up a reference to the ListView object
         listView = findViewById(R.id.product_list);
         EditText theFilter = (EditText) findViewById(R.id.search_filter);
-
         // create an adapter (with the faked products)
         adapter = new ArrayAdapter<Product>(this,
                 android.R.layout.simple_list_item_1,
                 products);
+
+
+        theFilter.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s
+                    , int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+              (MainProductList.this).adapter.getFilter().filter(s);
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
 
         listView.setOnItemClickListener(new ListView.OnItemClickListener() {
             @Override
