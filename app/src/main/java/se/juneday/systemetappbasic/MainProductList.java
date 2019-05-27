@@ -111,6 +111,7 @@ public class MainProductList extends AppCompatActivity {
             }
         });
 
+
         listView.setOnItemClickListener(new ListView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent,
@@ -119,7 +120,9 @@ public class MainProductList extends AppCompatActivity {
                                     long id /* The row id of the item that was clicked */) {
                 Log.d(LOG_TAG, "item clicked, pos:" + position + " id: " + id);
 
-                Product p = products.get(position);
+                Product p = adapter.getItem(position);
+
+
                 Intent intent = new Intent(MainProductList.this, ProductActivity.class);
                 intent.putExtra("product", p);
                 startActivity(intent);
