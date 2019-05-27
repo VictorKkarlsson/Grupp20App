@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  android:orientation="vertical" android:layout_width="match_parent"
-  android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBDAEC"
+    android:orientation="vertical"
+    android:textColor="#000000"
+    >
 
   <TextView
-    android:id="@+id/product_name"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+      android:id="@+id/product_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/andada"
+      android:textColor="#000000"
+      android:textSize="32dp" />
 
   <TextView
-    android:id="@+id/product_volume"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+      android:id="@+id/product_volume"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/andada"
+      android:textColor="#000000"
+      android:textSize="32dp" />
 
   <TextView
-    android:id="@+id/product_price"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+      android:id="@+id/product_price"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/andada"
+      android:textColor="#000000"
+      android:textSize="32dp" />
 
   <TextView
-    android:id="@+id/product_alcohol"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+      android:id="@+id/product_alcohol"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/andada"
+      android:textColor="#000000"
+      android:textSize="32dp" />
 
 
 </LinearLayout>
