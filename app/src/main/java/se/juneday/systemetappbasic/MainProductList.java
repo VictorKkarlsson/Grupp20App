@@ -169,7 +169,7 @@ public class MainProductList extends AppCompatActivity {
 
     private void showSearchDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Search products");
+        builder.setTitle("Filtrera produkter");
         final View viewInflated = LayoutInflater
                 .from(this).inflate(R.layout.search_dialog, null);
 
@@ -249,6 +249,8 @@ public class MainProductList extends AppCompatActivity {
     }
 
 
+
+
     private List<Product> jsonToProducts(JSONArray array) {
         Log.d(LOG_TAG, "jsonToProducts()");
         List<Product> productList = new ArrayList<>();
@@ -269,6 +271,7 @@ public class MainProductList extends AppCompatActivity {
         }
         return productList;
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
