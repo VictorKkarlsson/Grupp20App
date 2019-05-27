@@ -111,7 +111,6 @@ public class MainProductList extends AppCompatActivity {
             }
         });
 
-
         listView.setOnItemClickListener(new ListView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent,
@@ -120,8 +119,8 @@ public class MainProductList extends AppCompatActivity {
                                     long id /* The row id of the item that was clicked */) {
                 Log.d(LOG_TAG, "item clicked, pos:" + position + " id: " + id);
 
+              //  Product p = products.get(position);
                 Product p = adapter.getItem(position);
-
 
                 Intent intent = new Intent(MainProductList.this, ProductActivity.class);
                 intent.putExtra("product", p);
@@ -172,7 +171,7 @@ public class MainProductList extends AppCompatActivity {
 
     private void showSearchDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Filtrera produkter");
+        builder.setTitle("Filter products");
         final View viewInflated = LayoutInflater
                 .from(this).inflate(R.layout.search_dialog, null);
 
@@ -252,8 +251,6 @@ public class MainProductList extends AppCompatActivity {
     }
 
 
-
-
     private List<Product> jsonToProducts(JSONArray array) {
         Log.d(LOG_TAG, "jsonToProducts()");
         List<Product> productList = new ArrayList<>();
@@ -274,7 +271,6 @@ public class MainProductList extends AppCompatActivity {
         }
         return productList;
     }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
